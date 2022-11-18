@@ -15,6 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "mini": "npx tailwindcss -o ./public/css/style.css --minify",
+    "tailwind": "npx tailwindcss -i ./public/css/raw.css -o ./public/css/tailwind.css --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -38,6 +40,7 @@
   },
   "devDependencies": {
     "prettier": "2.7.1",
-    "react-router-dom": "^6.4.3"
+    "react-router-dom": "^6.4.3",
+    "tailwindcss": "^3.2.4"
   }
 }
