@@ -1,5 +1,9 @@
+import React from "react";
+// import Typed from "react-typed";
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div>Hi</div>
+  )
 };
 
 export default Home;
